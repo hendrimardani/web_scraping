@@ -1,4 +1,4 @@
-Teknik web srapping python
+Teknik web scrapping python
 
 Jalankan dengan perintah
 
