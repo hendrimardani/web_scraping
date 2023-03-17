@@ -29,10 +29,3 @@ class QuotesSpider(scrapy.Spider):
             "jenis_sekolah":response.css("#w0 > table > tbody > tr:nth-child(1) > td:nth-child(8) \
                                          ::text").extract(),  
         }
-
-#w0 > table > tbody > tr:nth-child(1) > td:nth-child(3)
-#w0 > table > tbody > tr:nth-child(1) > td:nth-child(4)
-#w0 > table > tbody > tr:nth-child(1) > td:nth-child(5)
-#w0 > table > tbody > tr:nth-child(1) > td:nth-child(6)
-#w0 > table > tbody > tr:nth-child(1) > td:nth-child(7)
-#w0 > table > tbody > tr:nth-child(1) > td:nth-child(8)
