@@ -1,3 +1,4 @@
+## ----  Cek Respons web server ---- , Jika tidak ada error aktifkan komentar yang bawah
 from pathlib import Path
 
 import scrapy
