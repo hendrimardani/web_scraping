@@ -16,6 +16,6 @@ Untuk masuk ke shell
 ```
 scrapy shell
 ```
-### response.css("::text").get()   ( Tambhakan ::text untuk mengekstrak teks original )
+##### response.css("::text").get()   ( Tambhakan ::text untuk mengekstrak teks original )
 atau jika masih tidak bisa bisa menggunakan xpath
-### response.xpath("text()").get() ( Tambahkan text() untuk mengekstrak teks original )
+##### response.xpath("/text()").get() ( Tambahkan /text() untuk mengekstrak teks original )
