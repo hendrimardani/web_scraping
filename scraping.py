@@ -167,6 +167,6 @@ class QuotesSpider(scrapy.Spider):
 #                 }
 
 # Fungsi Next page bisa menggunakan ini
-# next_page = response.css("a[diikuti nama class]).attrib["href"]
+# next_page = response.css("a[diikuti nama class]").attrib["href"]
 # if next_page is not None:
 #     yield response.follow(next_page, callback=self.parse)
