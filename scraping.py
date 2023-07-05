@@ -165,3 +165,8 @@ class QuotesSpider(scrapy.Spider):
 #                 "jenis_sekolah":response.css("#w0 > table > tbody >tr:nth-child(1) > td:nth-child(8) \
 #                                             ::text").extract(),
 #                 }
+
+# Fungsi Next page bisa menggunakan ini
+# next_page = response.css("a[diikuti nama class]).attrib["href"]
+# if next_page is not None:
+#     yield response.follow(next_page, callback=self.parse)
