@@ -114,6 +114,9 @@ class QuotesSpider(scrapy.Spider):
 
 
 
+
+
+
 # # Fungsi try-except => Jika program try (error) maka except akan dijalankan
 # from pathlib import Path
 
